@@ -6,14 +6,14 @@ int main()
 {
     float distance_km;
 
-    printf("Input Distance in kilometer: ");
+    printf("Input Distance (km): ");
     scanf("%f", &distance_km);
 
     float meters = distance_km * 1000;
     float cm = meters * 100;
 
-    printf("kilometers to meters: %.2f meters\n", meters);
-    printf("kilometers to centimeters: %.2f centimeters\n\n", cm);
+    printf("Distance in meters (m): %.2f m\n", meters);
+    printf("Distance in centimeters (cm): %.2f cm\n\n", cm);
 
     printf("Press Enter to exit...");
     getchar();

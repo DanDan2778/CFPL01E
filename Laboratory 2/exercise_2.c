@@ -10,12 +10,12 @@ int main()
     float radius;
     float pi = 3.14159;
 
-    printf("Enter Radius (cm): ");
+    printf("Enter Radius in centimeter (cm): ");
     scanf("%f", &radius);
 
     float area = pi * radius * radius;
 
-    printf("\nThe area ot the circle with radius %.2f cm is %.2f cm^2\n\n", radius, area);
+    printf("\nThe area of the circle with radius %.2f cm is %.2f cm^2\n\n", radius, area);
 
     printf("Press Enter to exit...");
     getchar();
