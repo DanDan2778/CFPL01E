@@ -11,11 +11,13 @@ int main()
 
     float meters = distance_km * 1000;
     float cm = meters * 100;
+    float mm = cm * 10;
 
-    printf("Distance in meters (m): %.2f m\n", meters);
-    printf("Distance in centimeters (cm): %.2f cm\n\n", cm);
+    printf("\nDistance in meters (m): %.2f m\n", meters);
+    printf("Distance in centimeters (cm): %.2f cm\n", cm);
+    printf("Distance in millimeters (mm): %.2f cm\n", mm);
 
-    printf("Press Enter to exit...");
+    printf("\nPress Enter to exit...");
     getchar();
     getchar();
 
