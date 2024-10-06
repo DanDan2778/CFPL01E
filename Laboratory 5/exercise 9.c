@@ -25,6 +25,6 @@ int main()
         }
     }
 
-    printf("\nThe sum of the even numbers found in the array inputted is: %d", sum);
+    printf("\nThe sum of the even numbers found in the array is: %d", sum);
     return 0;
 }
