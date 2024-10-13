@@ -5,6 +5,9 @@
 
 int main() 
 {
+    float km;
+
+    km = 
     
 
     return 0;
