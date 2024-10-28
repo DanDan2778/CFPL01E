@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+int max_highest();
+int reversed_5_integer(int n);
+int find_gcd(int a, int b);
+
 // highest value in the array
 
 int max_highest()
@@ -34,6 +40,6 @@ int find_gcd(int a, int b){
     if (b == 0){
         return a;
     } else{
-        return find_gcd(b, a % b);
+        return find_gcd(b, a %b)
     }
 }

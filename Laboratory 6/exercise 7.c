@@ -14,12 +14,9 @@ int main()
     for (i = 0; i < 5; i++){
         printf("Input Number : ");
         scanf("%d", &enter[i]);
+        evenChecker = evennumbers_checker(enter[i]);
+        printf("%d %s", enter[i], evenChecker);
     }  
-    for (i = 0; i < 5; i++){
-    evenChecker = evennumbers_checker(enter[i]);
-
-    printf("%d %s", enter[i], evenChecker);
-    }
 
     return 0;
 }
