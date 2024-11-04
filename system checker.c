@@ -17,11 +17,11 @@ int main() {
     return 0;
 }
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main(){
-//     int n = 54321;
-//     n /= 10;
+int main(){
+    int n = 54321;
+    n /= 10;
 
-// printf("%d", n);
-// }
+printf("%d", n);
+}
